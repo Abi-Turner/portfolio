@@ -5,10 +5,43 @@
 </head> 
 <body>
     <heading>
-        <h1>Contact</h1>
+        <h1>Contact Me</h1>
     </heading>
+    <br>
     <main>
+       <p>Please fill in the form below to get in touch</p> 
+       <form>
+       <fieldset>
+        <legend>Contact Information</legend>
+        <label for="name">Name</label>
+            <input id="name" type="text">
 
+        <br>
+        <label for="email">Email</label>
+        <input id="email" type="email">
+        
+        <br>
+        <label for="reason for contact">Please selcet reason for contact:</label>
+        <select name="reason for contact">
+            <option value="general enquiry" selected>General Enquiry</option>
+            <option value="technical issue" selected>Technical Issue</option>
+           <option value="other" selected>Other</option>
+         </select>
+         <br>
+        <br>
+         <label for="comments">Please add your comments below:</label>
+         <br>
+
+        <textarea id="comments"></textarea>   
+
+         <br>
+
+         <input type="submit" name="submit" value="Submit">
+         
+       </fieldset>
+
+    </form>
+    
     </main>
     <footer></footer>
 </body>
