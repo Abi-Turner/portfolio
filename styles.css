@@ -28,6 +28,7 @@ p {
 
 img {
    width:100vw;
+   margin:0%;
     
 }
 
@@ -42,10 +43,10 @@ img {
 #headline:hover {
     
     color: #222222; 
-    background-color: #baea98;
-    
+    background-color: #baea98; 
     
 }
+
 
 
 p {
@@ -54,9 +55,40 @@ p {
  
  a {
     color: inherit;
-    text-decoration: none; /* Removes any decoration. */
+    text-decoration: none; 
  }
 
  a:visited {
     color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*Floating Back-To-Top Button*/
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    float: right;
+    right: 10%;
+    left: 90%;
+    max-width: 40px;
+    width: 100%;
+    font-size: 20px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(24, 15, 15);
+    padding: 1px;
+    border-radius: 25px;
+
+}
+/*On Hover Color Change*/
+
+#myBtn:hover {
+
+    color: #222222 !important;
+    background-color: #baea98;
+    
 }
