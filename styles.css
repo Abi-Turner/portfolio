@@ -1,0 +1,62 @@
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 3em;
+    color: slategrey;
+}
+
+h3 {
+    font-size: 3em ;
+    color: slategrey;
+}
+
+nav {
+    font-size: 2em;
+}
+
+p {
+    font-size: 2em;
+}
+
+
+img {
+   width:100vw;
+    
+}
+
+#headline {
+
+    background-color: #222222;
+    color: #baea98;
+    padding: 60px;
+    width:100%;
+}
+
+#headline:hover {
+    
+    color: #222222; 
+    background-color: #baea98;
+    
+    
+}
+
+
+p {
+    position: relative;
+ }
+ 
+ a {
+    color: inherit;
+    text-decoration: none; /* Removes any decoration. */
+ }
+
+ a:visited {
+    color: inherit;
+}
